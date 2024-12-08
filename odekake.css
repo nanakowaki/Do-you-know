@@ -29,6 +29,7 @@ ul{
 nav {
   padding-top: 5px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 figure.rogo{
@@ -47,11 +48,11 @@ p.odekake{
 }
 
 .select {
-  position: relative;
-  right: 580px;
-  display: inline-block;
-  margin-bottom: 20px; 
-  border: 1px solid #000;
+  .select {
+    display: inline-block;
+    margin: 0 auto;  /* 中央揃え */
+    border: 1px solid #000;
+  }  
 }
 .select select {
   appearance: none;
